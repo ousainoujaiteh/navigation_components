@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML and SASS Template for Experimenting Code</title>
+  <meta name="description" content="This is a blank HTML and SASS template for experimenting code">
+  <meta name="author" content="Abd Al-Ala Camara - tixibit.com">
+
+  <!-- normalize CSS Project -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel="stylesheet" href="styles/css/main.css">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <!-- TODO CODE BELOW THIS LINE -->
+
+  <div class="components">
+     <section class="component">
+       <div class="title">
+          <h2>Navigation</h2>
+       </div>
+       <div class="component__ouput">
+         <h2>Example</h2>
+         <nav>
+           <ul>
+             <li><a href="">Home</a></li>
+             <li><a href="">About</a></li>
+             <li><a href="">Contact</a></li>
+           </ul>
+         </nav>
+       </div>
+     </section>
+     <div class="">
+      <div class="component__usage">
+         <h2>Usage</h2>
+       <p>
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+       </p>
+      </div>
+     <hr>
+     <div class="code">
+             <h2>Code</h2>
+             <div class="tab">
+                 <button class="tablinks" onclick="openTab(event, 'Html')">Html</button>
+                 <button class="tablinks" onclick="openTab(event, 'Sass')">Sass</button>
+                 <button class="tablinks" onclick="openTab(event, 'Javascript')">JavaScript</button>
+             </div>
+           <div id="Html" class="tabcontent">
+<pre><code>  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+
+</code></pre>
+           </div>
+           <div id="Sass" class="tabcontent">
+             <h3>Sass</h3>
+           </div>
+           <div id="Javascript" class="tabcontent">
+             <h3>Javascript</h3>
+           </div>
+       </div>
+      </div>
+     </div>
+
+
+  <!-- All Scripts at the bottom of the page -->
+  <script src="scripts/main.js"></script>
+</body>
+</html>
